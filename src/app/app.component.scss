@@ -1,0 +1,44 @@
+.form {
+	position: absolute;
+}
+.search {display: flex; justify-content: end; }
+.small { width: 100px }
+.medium { width: 200px }
+.large { width: 300px }
+
+.icon-button {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.button {
+	width: 100px;
+	position: absolute;
+	height: 56px;
+	font-style: oblique;
+	font-weight: 400;
+	
+	&.green {
+		background-color: #64DD17;
+		color: white;
+	}
+
+	&.cancel {
+		background-color: ghostwhite;
+		color: black;
+		margin-left: 110px;
+	}
+}
+
+.button:disabled {    
+	opacity: 0.5;
+}
+
+mat-form-field { margin-right: 10px; }
+
+.spinner {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20vh;
+}
